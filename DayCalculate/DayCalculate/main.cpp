@@ -7,12 +7,22 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[])
+int main()
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    int year=0;
+    int month=0;
+    int date=0;
+    
+    cout << "年を入力してください。" << endl;
+    cin >> year;
+    cout << "月を入力してください。" << endl;
+    cin >> month;
+    cout << "日を入力してください。" << endl;
+    cin >> date;
+    
+    
     return 0;
 }
 
